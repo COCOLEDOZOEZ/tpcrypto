@@ -14,6 +14,14 @@ contract shipping {
         string nom;
         uint arrivee;
         uint depart;
+        
     }
+ function _createShip() public{
+        ships.push(Ship(etat.Pending));
+        }
+function getselection() public view returns (etat) {
+      return selection;
+   }
+   
 
 }
